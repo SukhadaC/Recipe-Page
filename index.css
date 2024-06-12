@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-color: hsl(30, 54%, 90%);
+    overflow: scroll;
+}
+.outfit-para {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .main-container{
+     background-color: white;
+     position:absolute;
+     top:10%;
+     left:50%;
+     margin-bottom: 20px;
+     transform: translate(-50%,-2%);
+     width:35%;
+     border-radius: 10px;
+     padding: 25px 20px 10px 20px;
+      
+
+  }
+  .image{
+    border-radius: 10px;
+  }
+  .image img
+  {
+    border-radius: 10px;
+    width:100%;
+    height:100%;
+  }
+  .heading-deatails
+  {
+    padding:10px auto;
+    
+  }
+  .heading-deatails h2{
+    font-family:"Young Serif","serif";
+    color: hsl(30, 10%, 34%);
+    text-align: center;
+  }
+   p{
+    font-family: "Outfit",sans-serif;
+    font-weight: 400;
+    font-size:small;
+    color:hsl(20, 1%, 58%);
+  }
+  .preparations{
+    background-color: hsl(330, 100%, 98%);
+    border-radius:11px;
+    margin-top:2.5%;
+    font-family: "Outfit",sans-serif;
+    margin: 20px auto;
+  }
+  .preparations h4{
+    color:hsl(332, 51%, 32%);
+    padding: 5px 10px;
+
+  }
+  .preparations ul{
+    padding:5px 30px;
+    font-size:small;
+     color: rgb(91, 89, 89);
+  }
+  .ingredients
+  {
+    margin: 20px auto;
+  }
+   h3{
+    color: hsl(332, 51%, 32%);
+    font-family: "Younf Serif",serif;
+
+  }
+  .ingredients ul{
+    padding: 5px 23px;
+    font-family: "Outfit",serif;
+    font-size: small;
+    color:rgb(91, 89, 89);
+    
+  }
+  .instructions{
+    margin: 20px auto;
+  }
+
+.instructions ol{
+    padding: 5px 23px;
+    font-family: "Outfit",serif;
+    font-size: 0.8em;
+    color:rgb(91, 89, 89);
+}
+.nutrition
+{
+    margin: 20px auto;
+}
+.content
+{
+    display: flex;
+    justify-content: space-around;
+    color:rgb(91, 89, 89);
+    font-family: "Outfit";
+    margin:10px 5px;
+    font-size: small;
+}
+.count
+{
+    color:hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+hr
+{
+    color:rgb(91, 89, 89);
+}
+@media screen and (max-width: 600px) {
+    .main-container{
+    
+        top:0%;
+        width:90%;
+       
+   
+     }
+  }
+  
+  
